@@ -6,7 +6,6 @@ class App < Sinatra::Base
 		erb :index
 	end
 	get '/info' do
-		status :ok
 		erb :info
 	end
 end
